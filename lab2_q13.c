@@ -1,19 +1,12 @@
-/**
- * C program to count minimum number of notes in an amount
- */
- 
+
 #include <stdio.h>
 
 int main()
 {
     int amount;
     int note500, note100, note50, note20, note10, note5, note2, note1;
-    
-    /* Initialize all notes to 0 */
     note500 = note100 = note50 = note20 = note10 = note5 = note2 = note1 = 0;
 
-
-    /* Input amount from user */
     printf("Enter amount: ");
     scanf("%d", &amount);
 
@@ -58,7 +51,6 @@ int main()
         note1 = amount;
     }
 
-    /* Print required notes */
     printf("Total number of notes = \n");
     printf("500 = %d\n", note500);
     printf("100 = %d\n", note100);

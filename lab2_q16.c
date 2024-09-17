@@ -18,7 +18,6 @@ int main()
     }
     else 
     {
-        /* If none sides are equal */
         printf("Scalene triangle.");
     }
 
